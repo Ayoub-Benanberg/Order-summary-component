@@ -17,12 +17,13 @@ body{
 .small_container {
     overflow: hidden    ;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-top: 70px;
     width: 30vw;
     height: 80vh;
     background-color: white;
 }
 .row1{
+    padding-top: 20px;
     text-align: center;
     color:hsl(228.24deg 41.46% 24.12%);
 }
@@ -34,5 +35,33 @@ body{
     color: hsl(228deg 10.53% 62.75%);
 }
 .row3{
-    
+    background-color: hsl(230deg 75% 98.43%);
+    width: 75%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.col1{
+    display: flex;
+    justify-content: flex-start;
+}
+.row4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 7vh;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(244.59deg 75.31% 52.35%);
+    margin-bottom: 20px;
+}
+.row5{
+    text-align: center;
+    margin-top:20px ;
+    color: hsl(223.78deg 15.48% 53.14%);
 }
