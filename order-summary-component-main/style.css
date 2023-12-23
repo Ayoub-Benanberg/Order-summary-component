@@ -22,6 +22,11 @@ body{
     height: 83vh;
     background-color: white;
 }
+.img img{
+    width: 100%;
+    height: auto;
+}
+
 .row1{
     padding-top: 20px;
     text-align: center;
@@ -86,3 +91,22 @@ body{
 .row5 a:hover{
     color: hsl(226.67deg 41.86% 16.86%);
 }
+
+@media screen and (max-width: 768px) {
+    .small_container {
+      width: 90vw;
+    }
+
+    .row3 {
+      width: 80%;
+    }
+
+    .row4 a,
+    .row5 a {
+      width: 80%;
+    }
+    .img img {
+        width: 100%;
+        height: auto;
+      }
+  }
